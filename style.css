@@ -31,7 +31,7 @@ h1{
 /* header section start */
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -72,3 +72,51 @@ h1{
 .header .img-div img{
     width: 100%;
 }
+
+
+/* header section start */
+
+/* card section start */
+
+.my-mission h1{
+    font-size: 34px;
+    text-align: center;
+}
+.my-mission .my-card{
+    padding: 80px 0px;
+   
+}
+.my-mission .my-card .mission-card{
+    flex-basis: 30%;
+    justify-content: flex-start;
+    padding:10px 20px 30px 20px;
+    cursor:pointer;
+    border-radius: 15px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+.my-mission .my-card .mission-card:hover{
+    box-shadow: 10px 20px 40px rgba(0,0,0,0.3);
+    margin-top: -15px;
+}
+.my-mission .my-card .mission-card h3{
+    padding: 15px 0px;
+    font-size: 16px;
+}
+.my-mission .my-card .mission-card p{
+    line-height: 24px;
+    font-size: 12px;
+}
+.my-mission .my-card .mission-card img{
+    width: 100px;
+}
+.my-mission .my-card #card1{
+    background: #9685bdea;
+}
+.my-mission .my-card #card2{
+    background: #2a295fe1;
+}
+.my-mission .my-card #card3{
+    background: #026890ea;
+}
+/* card section start */
