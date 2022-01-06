@@ -121,46 +121,116 @@ h1{
 }
 /* card section start */
 
-/* main section start */
+/*#main section start */
     #main-section{
         background-image: url(images/shapes/dream-bg.png);
         background-repeat: no-repeat;
         background-position:right;
-        padding:0px 90px;
+        padding:35px 90px;
     }
-    #main-section .main-img-section{
+    .main-section .main-img-section{
         display: flex;
         justify-content: space-between;
         
 
     }
-    #main-section .main-img-section .img{
+    .main-section .main-img-section .img{
         width: 35%;
         
     }
-    #main-section .main-img-section .img img{
+    .main-section .main-img-section .img img{
         width: 100%;
     }
-    #main-section .main-img-section .main-desc{
+    .main-section .main-img-section .main-desc{
         width: 55%;
         padding:30px 0px 30px 10px;
     }
-    #main-section .main-img-section .main-desc h3{
+    .main-section .main-img-section .main-desc h3{
         padding: 7px 0;
         font-size: 25px ;
         font-weight: 800;
     }
-    #main-section .main-img-section .main-desc h2{
+    .main-section .main-img-section .main-desc h2{
         font-size: 28px;
         font-weight: 800;
         padding-bottom:10px;
     }
-    #main-section .main-img-section .main-desc p{
+    .main-section .main-img-section .main-desc p{
         line-height: 24px;
     }
-    #main-section .main-img-section .main-desc a{
+    .main-section .main-img-section .main-desc a{
         display: inline-block;
         text-decoration: none;
         margin-top: 20px;
+        font-size: 13px;
     }
-    /* main section ends */
+    /*#main section ends */
+
+    /* community section start */
+    #community-section{
+        background-image: url(images/shapes/top-banner.png);
+        background-repeat: no-repeat;
+        background-position:cover;
+        margin-top: 50px;
+        
+    }
+
+    /* contact section start */
+
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background:rgba(220, 213, 245, 0.719);
+        width: 100%;
+    }
+    .contact .contact-desc{
+        width: 50%;
+    }
+    .contact .contact-desc h1{
+        font-size: 36px;
+        line-height: 3rem;
+    }
+    .contact .contact-desc p{
+        padding-top: 20px;
+        
+    }
+    .contact .message{
+        width: 45%;
+        /* margin-left: 80px; */
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        flex-direction: column;
+        border: 2px solid #dbd8d8ed;
+        border-radius: 10px;
+        padding: 20px 30px;
+    }
+    .contact .message h3,.contact .message h4{
+        padding-bottom: 15px;
+    }
+    .contact .message input{
+        width: 90%;
+        padding: 7px 12px;
+        margin-bottom: 20px;
+        border: 1px solid rgb(219, 231, 245);
+        border-radius: 10px;
+        letter-spacing: 1px;
+    }
+    .contact .message input:focus,.contact .message textarea:focus{ 
+        outline: none;
+        border: 1px solid #79dbecd8;
+    }
+    .contact .message textarea{
+        resize: none;
+        border: none;
+        border-radius: 10px;
+        padding: 20px;
+        border: 1px solid #fff;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+    }
+    /* contact section ends */
+
+
+
