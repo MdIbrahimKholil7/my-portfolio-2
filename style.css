@@ -247,11 +247,12 @@ h1{
     }
     footer h1{
         font-size: 23px;
-        font-family: 'Island Moments', cursive;
+        font-family: 'Lobster', cursive;
         padding-bottom: 10px;
     }
     footer h4{
         font-size: 14px;
+        
         color: rgba(120, 151, 243, 0.459);
     }
     /* footer section ends  */
