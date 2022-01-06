@@ -205,6 +205,10 @@ h1{
         border: 2px solid #dbd8d8ed;
         border-radius: 10px;
         padding: 20px 30px;
+       
+    }
+    .contact .message:hover{
+        box-shadow: 10px 14px 50px rgba(0,0,0,0.3);
     }
     .contact .message h3,.contact .message h4{
         padding-bottom: 15px;
@@ -230,7 +234,24 @@ h1{
         box-sizing: border-box;
         letter-spacing: 1px;
     }
+    .contact .message button{
+        margin-top: 10px;
+    }
     /* contact section ends */
-
-
-
+    /* footer section start  */
+    footer{
+        background-color: #000;
+        text-align: center;
+        color: #fff;
+        padding: 40px 0px;
+    }
+    footer h1{
+        font-size: 23px;
+        font-family: 'Island Moments', cursive;
+        padding-bottom: 10px;
+    }
+    footer h4{
+        font-size: 14px;
+        color: rgba(120, 151, 243, 0.459);
+    }
+    /* footer section ends  */
