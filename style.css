@@ -176,12 +176,21 @@ h1{
     }
 
     /* contact section start */
-
     .contact{
+        padding: 30px 90px 50px 90px;
+        
+        background:rgba(220, 213, 245, 0.719);
+    }
+    .contact #contact-title{
+        padding-bottom:40px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .my-contact{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background:rgba(220, 213, 245, 0.719);
+        
         width: 100%;
     }
     .contact .contact-desc{
