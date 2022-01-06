@@ -83,7 +83,7 @@ h1{
     text-align: center;
 }
 .my-mission .my-card{
-    padding: 80px 0px;
+    padding: 60px 0px;
    
 }
 .my-mission .my-card .mission-card{
@@ -120,3 +120,47 @@ h1{
     background: #026890ea;
 }
 /* card section start */
+
+/* main section start */
+    #main-section{
+        background-image: url(images/shapes/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position:right;
+        padding:0px 90px;
+    }
+    #main-section .main-img-section{
+        display: flex;
+        justify-content: space-between;
+        
+
+    }
+    #main-section .main-img-section .img{
+        width: 35%;
+        
+    }
+    #main-section .main-img-section .img img{
+        width: 100%;
+    }
+    #main-section .main-img-section .main-desc{
+        width: 55%;
+        padding:30px 0px 30px 10px;
+    }
+    #main-section .main-img-section .main-desc h3{
+        padding: 7px 0;
+        font-size: 25px ;
+        font-weight: 800;
+    }
+    #main-section .main-img-section .main-desc h2{
+        font-size: 28px;
+        font-weight: 800;
+        padding-bottom:10px;
+    }
+    #main-section .main-img-section .main-desc p{
+        line-height: 24px;
+    }
+    #main-section .main-img-section .main-desc a{
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+    /* main section ends */
